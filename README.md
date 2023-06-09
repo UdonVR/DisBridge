@@ -2,6 +2,7 @@
 
 ## Upgrading from 1.x to 2.x
 I want to prefix this with: if you need help, DM me via Discord, I'll help anyone through the upgrade process!!
+@childofthebeast
 
 Upgrading should be easy, first and foremost: **MAKE A BACKUP**
 Nothing should break, but you should always keep backups, if you haven't already, I've written a guide on how to put your projects onto GitHub in the #tutorials in our Discord server
