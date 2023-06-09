@@ -5,7 +5,7 @@ I want to prefix this with: if you need help, DM me via Discord, I'll help anyon
 @childofthebeast
 
 Upgrading should be easy, first and foremost: **MAKE A BACKUP**
-Nothing should break, but you should always keep backups, if you haven't already, I've written a guide on how to put your projects onto GitHub in the #tutorials in our Discord server
+Nothing should break, but you should always keep backups, if you haven't already, I've written a guide on how to put your projects onto GitHub in the #tutorials forum in our Discord server
 
 **MAKE SURE YOU'RE ON SDK 3.1.11 OR GREATER, preferably the latest SDK**
 
