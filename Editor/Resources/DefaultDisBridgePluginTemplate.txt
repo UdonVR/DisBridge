@@ -1,0 +1,27 @@
+using System;
+using UdonSharp;
+using UnityEngine;
+using VRC.SDKBase;
+using VRC.Udon;
+using UdonVR.DisBridge;
+
+namespace UdonVR.DisBridge.Plugins
+{
+    public class <TemplateClassName> : UdonSharpBehaviour
+    {
+        [SerializeField] private PluginManager manager;
+
+        //Built-in Start method. It's recommended to use "_UVR_Init()" instead of "Start" when making a DisBridge Plugin.
+        private void Start()
+        {
+            manager.AddPlugin(gameObject);
+        }
+
+        //Runs when DisBridge finishes pulling the roles.
+        //This is required to be Public for the PluginManager to Initialize your plugin
+        public void _UVR_Init()
+        {
+
+        }
+    }
+}
