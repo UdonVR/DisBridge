@@ -1,0 +1,4 @@
+
+*.meta
+Runtime/Scripts/Core/
+package.json
