@@ -1,4 +1,4 @@
-//Copyright (c) 2023 UdonVR LLC - All Rights Reserved
+﻿//Copyright (c) 2023 UdonVR LLC - All Rights Reserved
 using System;
 using System.Collections;
 using System.Collections.Generic;
