@@ -81,10 +81,10 @@ namespace UdonVR.DisBridge.RoleBoardV2
             disBridge.log($"Registering {nameof(RoleBoardV2)}:{gameObject.name}...");
             disBridge.AddPlugin(gameObject);
             //screenMaterial = screenMesh.materials[0];
-            savedTittleString = roleTitle.text;
-            saveContentString = roleList.text;
-            loadingScreen.SetActive(true);
-            namesScreen.SetActive(false);
+            if (roleTitle != null) savedTittleString = roleTitle.text;
+            if (roleList != null) saveContentString = roleList.text;
+            if (loadingScreen != null) loadingScreen.SetActive(true);
+            if (namesScreen != null) namesScreen.SetActive(false);
         }
         #endregion
 
@@ -95,8 +95,8 @@ namespace UdonVR.DisBridge.RoleBoardV2
         {
             disBridge.log($"_Init {nameof(RoleBoardV2)}:{gameObject.name}...");
 
-            loadingScreen.SetActive(false);
-            namesScreen.SetActive(true);
+            if (loadingScreen != null) loadingScreen.SetActive(false);
+            if (namesScreen != null) namesScreen.SetActive(true);
             
             switch (_mode)
             {
@@ -143,20 +143,37 @@ namespace UdonVR.DisBridge.RoleBoardV2
                 normalizedTime = _fadeLoopTime / fadeSpeed;
                 if (!_isFadeMid)
                 {
-                    alphaColor.a = Mathf.Lerp(.75f, 0, normalizedTime);
-                    screenTint.color = alphaColor;
-                    alphaColor2.a = Mathf.Lerp(0, .99f, normalizedTime);
-                    screenBlack.color = alphaColor2;
+                    if (screenTint != null)
+                    {
+                        alphaColor.a = Mathf.Lerp(.75f, 0, normalizedTime);
+                        screenTint.color = alphaColor;
+                    }
+
+                    if (screenBlack != null)
+                    {
+                        alphaColor2.a = Mathf.Lerp(0, .99f, normalizedTime);
+                        screenBlack.color = alphaColor2;
+                    }
+                    
                     //screenMaterial.SetColor("_EmissionColor",alphaColor);
                     //roleList.color = alphaColor;
                     //roleTitle.color = alphaColor;
                 }
                 else
                 {
-                    alphaColor.a = Mathf.Lerp(0, .75f, normalizedTime);
-                    screenTint.color = alphaColor;
-                    alphaColor2.a = Mathf.Lerp(.99f, 0, normalizedTime);
-                    screenBlack.color = alphaColor2;
+                    
+                    if (screenTint != null)
+                    {
+                        alphaColor.a = Mathf.Lerp(0, .75f, normalizedTime);
+                        screenTint.color = alphaColor;
+                    }
+                    if (screenBlack != null)
+                    {
+                        alphaColor2.a = Mathf.Lerp(.99f, 0, normalizedTime);
+                        screenBlack.color = alphaColor2;
+                    }
+
+                    
                     //screenMaterial.SetColor("_EmissionColor",alphaColor);
                     //roleList.color = alphaColor;
                     //roleTitle.color = alphaColor;
@@ -367,20 +384,20 @@ namespace UdonVR.DisBridge.RoleBoardV2
         //Changes the text and the color of the display to the corresponding data of the current role.
         public void UpdateDisplayWithCurrentRole()
         {
-            string _roleList = "";
-            string _roleTitle = "";
-            roleTitle.text = savedTittleString;
-            roleList.text = saveContentString;
-            _roleList = String.Join(separator, _roleContainers[currentRole].GetMembers());
-            _roleTitle = _roleContainers[currentRole].roleName;
             alphaColor = _roleContainers[currentRole].roleColor;
             if (roleList != null)
             {
+                string _roleList = "";
+                roleList.text = saveContentString;
+                _roleList = String.Join(separator, _roleContainers[currentRole].GetMembers());
                 roleList.text = _roleList;
                 //roleList.color = alphaColor;
             }
             if (roleTitle != null)
             {
+                string _roleTitle = "";
+                roleTitle.text = savedTittleString;
+                _roleTitle = _roleContainers[currentRole].roleName;
                 roleTitle.text = _roleTitle;
                 //roleTitle.color = alphaColor;
             }
@@ -391,34 +408,34 @@ namespace UdonVR.DisBridge.RoleBoardV2
         {
             if(_roleContainers.Length == 1)
             {
-                previousRoleButton.SetActive(false);
-                nextRoleButton.SetActive(false);
+                if (previousRoleButton != null) previousRoleButton.SetActive(false);
+                if (nextRoleButton != null) nextRoleButton.SetActive(false);
             }
             else
             {
                 if (currentRole == 0)
                 {
-                    previousRoleButton_Text.text = _roleContainers[_roleContainers.Length - 1].roleName;
+                    if (previousRoleButton_Text != null) previousRoleButton_Text.text = _roleContainers[_roleContainers.Length - 1].roleName;
+                    if (nextRoleButton_Text != null) nextRoleButton_Text.text = _roleContainers[currentRole + 1].roleName;
                     //previousRoleButton.GetComponentInChildren<TextMeshProUGUI>().color = _roleContainers[_roleContainers.Length - 1].roleColor;
-                    nextRoleButton_Text.text = _roleContainers[currentRole + 1].roleName;
                     //nextRoleButton.GetComponentInChildren<TextMeshProUGUI>().color = _roleContainers[currentRole + 1].roleColor;
                 }
                 else if (currentRole == _roleContainers.Length - 1)
                 {
-                    previousRoleButton_Text.text = _roleContainers[currentRole - 1].roleName;
+                    if (previousRoleButton_Text != null) previousRoleButton_Text.text = _roleContainers[currentRole - 1].roleName;
+                    if (nextRoleButton_Text != null) nextRoleButton_Text.text = _roleContainers[0].roleName;
                     //previousRoleButton.GetComponentInChildren<TextMeshProUGUI>().color = _roleContainers[currentRole - 1].roleColor;
-                    nextRoleButton_Text.text = _roleContainers[0].roleName;
                     //nextRoleButton.GetComponentInChildren<TextMeshProUGUI>().color = _roleContainers[0].roleColor;
                 }
                 else
                 {
-                    previousRoleButton_Text.text = _roleContainers[currentRole - 1].roleName;
+                    if (previousRoleButton_Text != null) previousRoleButton_Text.text = _roleContainers[currentRole - 1].roleName;
+                    if (nextRoleButton_Text != null) nextRoleButton_Text.text = _roleContainers[currentRole + 1].roleName;
                     //previousRoleButton.GetComponentInChildren<TextMeshProUGUI>().color = _roleContainers[currentRole - 1].roleColor;
-                    nextRoleButton_Text.text = _roleContainers[currentRole + 1].roleName;
                     //nextRoleButton.GetComponentInChildren<TextMeshProUGUI>().color = _roleContainers[currentRole + 1].roleColor;
                 }
             }
-            currentRoleButton_Text.text = _roleContainers[currentRole].roleName;
+            if (currentRoleButton_Text != null) currentRoleButton_Text.text = _roleContainers[currentRole].roleName;
             //currentRoleButton.GetComponentInChildren<TextMeshProUGUI>().color = _roleContainers[currentRole].roleColor;
         }
 
@@ -461,7 +478,7 @@ namespace UdonVR.DisBridge.RoleBoardV2
             UpdateButtons();
             alphaColor.a = 0;
             alphaColor2.a = .99f;
-            screenTint.color = alphaColor;
+            if (screenTint != null) screenTint.color = alphaColor;
             //screenMaterial.SetColor("_EmissionColor",alphaColor);
             //roleList.color = alphaColor;
             //roleTitle.color = alphaColor;
