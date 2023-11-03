@@ -368,6 +368,8 @@ namespace UdonVR.DisBridge.RoleBoardV2
                 lastFrameScrollPosition = scrollRect.verticalNormalizedPosition;
                 if (manualScrollingTimer >= manualScrollingWaitTime)
                 {
+                    scrollSpeedRate = content.sizeDelta.y / sizeDeltaYFactor;
+                    realScrollSpeed = scrollSpeed / scrollSpeedRate;
                     SendCustomEventDelayedFrames(nameof(_DoScrollLoop), 0);
                 }
                 else
