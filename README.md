@@ -1,5 +1,8 @@
+Welcome to the DisBridge wiki!
+
 ### DisBridge now has a free version available that doesn't link with the Discord bot and can be used as a standalone permission manager. <br>This version is available in the [releases page](https://github.com/UdonVR/DisBridge/releases) of this repo. 
 
+basic setup video: https://youtu.be/LKSvLSKwY54
 
 ## What is DisBridge
 DisBridge is a service that essentially links your Discord Server to your VRChat world.
@@ -33,6 +36,7 @@ If you'd like to know more about this, you can read the Wiki here, read through 
 - [CyberLove Okinawa ˸˸˸ 沖縄](https://vrchat.com/home/world/wrld_f6f4bb4f-5abf-4fa4-b07d-dae59c182331) - Artsy Glitch
 - [OutCasted](https://vrchat.com/home/world/wrld_d6e5b0c0-745e-442b-8112-d792ce9ad1ae) - WispyWoo
 - [Transparency](https://vrchat.com/home/world/wrld_80925927-1902-4cdc-954e-7b9e50b69995) - Digital
+- [Pocket Rain](https://vrchat.com/home/world/wrld_1ef6553e-8ddf-49da-8969-2b3c75a325b1) - Silyataru
 
 **Clubs:**
 - KAIZEN
