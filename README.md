@@ -16,7 +16,7 @@ We have pre-built plugins for DisBridge supplied to you with DisBridge and a ful
 
 If you'd like to know more about this, you can read the Wiki here, read through some of the plugins in this repo or you can come ask us on Discord. You can join the Discord with the button below, or with this link/invite code: [mGAk7nd](http://discord.gg/mGAk7nd)
 
-### **30 day free trial available by request, please DM BeastChild#0666 via Discord.**
+### **30 day free trial available by request, please DM @childofthebeast via Discord.**
 
 ## Key Features
 - Robust plugin system
