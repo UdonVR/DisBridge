@@ -46,4 +46,4 @@ If you'd like to know more about this, you can read the Wiki here, read through 
 - REFLECT
 - El Pecado
 - rhythm
-<br>*Want your world here? DM me - BeastChild#0666*
+<br>*Want your world here? DM me - @childofthebeast*
