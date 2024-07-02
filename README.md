@@ -2,8 +2,6 @@ Welcome to the DisBridge wiki!
 
 ### DisBridge now has a free version available that doesn't link with the Discord bot and can be used as a standalone permission manager. <br>This version is available in the [releases page](https://github.com/UdonVR/DisBridge/releases) of this repo. 
 
-### [VCC Link](https://vpm.udonvr.com)
-
 basic setup video: https://youtu.be/LKSvLSKwY54
 
 ## What is DisBridge
@@ -33,19 +31,21 @@ If you'd like to know more about this, you can read the Wiki here, read through 
 ## Trusted by
 **Worlds/Creators:**
 - [The Black Cat](https://vrchat.com/home/world/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b) - SpookyGhostBoo
+- [Cozy Calm](https://vrchat.com/home/world/wrld_1e0e3667-af03-4ce2-9399-30014a109c48) - Sam x Camille
 - [Sovren's Chill home](https://vrchat.com/home/world/wrld_1b482eca-bede-4de8-88a8-bbb6ca7e24cd) - Sovern
 - [Never Have I Ever: Automated](https://vrchat.com/home/world/wrld_c51677d1-dca4-42a2-a749-03d7b0f1a4e8) - Twisty10000
 - [CyberLove Okinawa ˸˸˸ 沖縄](https://vrchat.com/home/world/wrld_f6f4bb4f-5abf-4fa4-b07d-dae59c182331) - Artsy Glitch
-- [MidNight Drive](https://vrchat.com/home/world/wrld_8f97c2ce-9455-4468-9925-628f6fba0dd1) - WispyWoo
+- [OutCasted](https://vrchat.com/home/world/wrld_d6e5b0c0-745e-442b-8112-d792ce9ad1ae) - WispyWoo
 - [Transparency](https://vrchat.com/home/world/wrld_80925927-1902-4cdc-954e-7b9e50b69995) - Digital
 - [Pocket Rain](https://vrchat.com/home/world/wrld_1ef6553e-8ddf-49da-8969-2b3c75a325b1) - Silyataru
 - [Aero House](https://vrchat.com/home/world/wrld_7cead4eb-165d-46a1-bbe7-76c3f99d85bc) - Sathon
-- [Bandit's Barcade](https://vrchat.com/home/world/wrld_bf342095-c3ee-4041-a579-4a70d167bf55) - CoffeeBandit`
-
 
 **Clubs:**
 - KAIZEN
 - REFLECT
 - El Pecado
-- rhythm
-<br>*Want your world here? DM me - @childofthebeast*
+- rhythm - [discord](https://discord.gg/ybGNkKPwUq)
+
+**Communities:**
+- The Dragon Server - [discord](https://discord.gg/dragonserver)
+<br><br>*Want your world here? DM me - @childofthebeast*
