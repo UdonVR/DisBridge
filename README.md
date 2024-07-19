@@ -2,7 +2,9 @@ Welcome to the DisBridge wiki!
 
 ### DisBridge now has a free version available that doesn't link with the Discord bot and can be used as a standalone permission manager. <br>This version is available in the [releases page](https://github.com/UdonVR/DisBridge/releases) of this repo. 
 
-basic setup video: https://youtu.be/LKSvLSKwY54
+### VCC Repo: https://vpm.udonvr.com/
+
+### basic setup video: https://youtu.be/LKSvLSKwY54
 
 ## What is DisBridge
 DisBridge is a service that essentially links your Discord Server to your VRChat world.
