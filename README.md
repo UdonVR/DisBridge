@@ -54,7 +54,7 @@ If you'd like to know more about this, you can read the Wiki here, read through 
 - The Dragon Server - [discord](https://discord.gg/dragonserver)
 <br><br>*Want your world here? DM me - @childofthebeast*
 
-**Contrubuters**
+**Contributors:**
 <br>[@ChildoftheBeast](https://github.com/ChildoftheBeast) - Backend development and plugin development
 <br>[@Takato65](https://github.com/Takato65) - Backend development and plugin development
 <br>[@TrueAquaJet](https://github.com/TrueAquaJet) - Shader development and Website development
