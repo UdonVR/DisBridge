@@ -53,3 +53,13 @@ If you'd like to know more about this, you can read the Wiki here, read through 
 **Communities:**
 - The Dragon Server - [discord](https://discord.gg/dragonserver)
 <br><br>*Want your world here? DM me - @childofthebeast*
+
+**Contrubuters**
+<br>[@ChildoftheBeast](https://github.com/ChildoftheBeast) - Backend development and plugin development
+<br>[@Takato65](https://github.com/Takato65) - Backend development and plugin development
+<br>[@TrueAquaJet](https://github.com/TrueAquaJet) - Shader development and Website development
+<br>[@imZuxi](https://github.com/imZuxi) - security improvments
+<br>[@BobyStar](https://github.com/BobyStar) - plugin development (invite system for VIP/Pvt rooms)
+<br>[@SelleSensen](https://github.com/SelleSensen) - plugin development (Roleboard V2)
+<br>[@Twisty10000](https://github.com/Twisty10000) - DisBridge Editing tool
+<br>[@Nestorboy](https://github.com/Nestorboy) - Shader development
