@@ -63,3 +63,4 @@ If you'd like to know more about this, you can read the Wiki here, read through 
 <br>[@SelleSensen](https://github.com/SelleSensen) - plugin development (Roleboard V2)
 <br>[@Twisty10000](https://github.com/Twisty10000) - DisBridge Editing tool
 <br>[@Nestorboy](https://github.com/Nestorboy) - Shader development
+<br>[@Duinrahaic](https://github.com/Duinrahaic) - Backend consulting
